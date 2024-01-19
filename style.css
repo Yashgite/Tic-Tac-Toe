@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-decoration: solid;
+    margin-top: 1rem;
+    font-family: monospace;
+}
+body{
+    background-color: #6C969D;  
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 17vmin;
+    width: 17vmin;
+    border: none;
+    border-radius: 10px;
+    font-size: 9vmin;
+    color: #645e9d;
+    background-color: #DBD9E8;
+}
+
+#reset-btn{
+    border: none;
+    border-radius: 1.3rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #292640;
+    color: #9E99C2;
+    cursor: pointer;
+}
+
+.new-btn{
+    border: none;
+    border-radius: 1.3rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #292640;
+    color: #9E99C2;
+    margin-top:80px ;
+    margin-bottom: 400px;
+    cursor: pointer;
+    
+}
+
+#msg{
+    font-size: 2rem;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    
+}
+
+.hide{
+    display: none;
+}
+.draw{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
