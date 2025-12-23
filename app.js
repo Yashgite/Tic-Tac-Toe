@@ -18,7 +18,7 @@ boxes.forEach((box) => {
         else{
              box.innerText = "X";
              box.style.color = "red";
-            turn = true;
+             turn = true;
         }
         box.disabled = true;
         count++;
@@ -62,6 +62,7 @@ const checkWinner = () => {
         if(pos1Val != '' && pos2Val != '' && pos3Val != ''){
             if(pos1Val === pos2Val && pos2Val === pos3Val){
                 showWinner(pos1Val);
+                return;
             }
         
         }
